@@ -133,3 +133,19 @@ nav {
 
 
 
+/* Device smaller than 576px */
+
+@media screen and (max-width: 576px) {
+    header {
+        background-position: center;
+    }
+    .banner-content {
+        margin-bottom: 50%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .reserve-table {
+        display: none;
+    }
+}
